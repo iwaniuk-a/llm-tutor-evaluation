@@ -1,0 +1,527 @@
+[
+  {
+    "id": 1,
+    "category": "derivatives",
+    "content": "Calculate the value of the derivative of the function $f(x) = 3x^2 + 5x - 7$ at the point $x = 2$.",
+    "expected_result": "17",
+    "solution_steps": "1. Determine the derivative formula: $f'(x) = 6x + 5$. 2. Substitute $x = 2$: $f'(2) = 6 \\cdot 2 + 5$. 3. Calculate: $12 + 5 = 17$."
+  },
+  {
+    "id": 2,
+    "category": "derivatives",
+    "content": "Calculate the value of the derivative of the function $f(x) = x^3 - 2x + 10$ at the point $x = 1$.",
+    "expected_result": "1",
+    "solution_steps": "1. Determine the derivative formula: $f'(x) = 3x^2 - 2$. 2. Substitute $x = 1$: $f'(1) = 3 \\cdot 1^2 - 2$. 3. Result: $3 - 2 = 1$."
+  },
+  {
+    "id": 3,
+    "category": "derivatives",
+    "content": "Calculate the value of the derivative of the function $f(x) = 2/x$ at the point $x = 2$.",
+    "expected_result": "-1/2 or -0.5",
+    "solution_steps": "1. Write the function as a power: $f(x) = 2x^{-1}$. 2. Calculate the derivative: $f'(x) = -2x^{-2} = -2/x^2$. 3. Substitute $x = 2$: $f'(2) = -2/4 = -0.5$."
+  },
+  {
+    "id": 4,
+    "category": "derivatives",
+    "content": "Calculate the value of the derivative of the function $f(x) = 5x^3$ at the point $x = 1$.",
+    "expected_result": "15",
+    "solution_steps": "1. Determine the derivative formula: $f'(x) = 15x^2$. 2. Substitute $x = 1$: $f'(1) = 15 \\cdot 1^2 = 15$."
+  },
+  {
+    "id": 5,
+    "category": "derivatives",
+    "content": "Calculate the slope (directional coefficient) of the tangent to the graph of the function $y = \\sqrt{x}$ at the point $x = 4$.",
+    "expected_result": "1/4 or 0.25",
+    "solution_steps": "1. Power function: $y = x^{0.5}$. 2. Derivative: $y' = 0.5x^{-0.5} = 1/(2\\sqrt{x})$. 3. For $x=4$: $y'(4) = 1/(2\\cdot 2) = 1/4 = 0.25$."
+  },
+  {
+    "id": 6,
+    "category": "analytic geometry",
+    "content": "Calculate the distance of point $P(3, 4)$ from the origin $(0,0)$.",
+    "expected_result": "5",
+    "solution_steps": "1. Distance formula: $d = \\sqrt{x^2 + y^2}$. 2. Substitute data: $d = \\sqrt{3^2 + 4^2}$. 3. Calculate: $d = \\sqrt{25} = 5$."
+  },
+  {
+    "id": 7,
+    "category": "analytic geometry",
+    "content": "Calculate the distance between points $A(1, 1)$ and $B(4, 5)$.",
+    "expected_result": "5",
+    "solution_steps": "1. Formula: $d = \\sqrt{(4-1)^2 + (5-1)^2}$. 2. $d = \\sqrt{3^2 + 4^2}$. 3. $d = \\sqrt{9+16} = 5$."
+  },
+  {
+    "id": 8,
+    "category": "analytic geometry",
+    "content": "Line $k$ has the equation $y = 3x - 1$. Provide the slope of a line perpendicular to $k$.",
+    "expected_result": "-1/3 or -0.33",
+    "solution_steps": "1. Perpendicularity condition: $a_1 \\cdot a_2 = -1$. 2. $3 \\cdot a_2 = -1$. 3. $a_2 = -1/3 \\approx -0.33$."
+  },
+  {
+    "id": 9,
+    "category": "analytic geometry",
+    "content": "Calculate the sum of the coordinates $(x+y)$ of the midpoint of the segment with endpoints $A(2, 4)$ and $B(6, 10)$.",
+    "expected_result": "11",
+    "solution_steps": "1. Midpoint $S = ((2+6)/2, (4+10)/2) = (4, 7)$. 2. Sum of coordinates: $4 + 7 = 11$."
+  },
+  {
+    "id": 10,
+    "category": "analytic geometry",
+    "content": "A circle is given by the equation $(x-1)^2 + (y+2)^2 = 16$. Provide the length of the radius of this circle.",
+    "expected_result": "4",
+    "solution_steps": "1. The equation of a circle is $(x-a)^2 + (y-b)^2 = r^2$. 2. From the equation, it follows that $r^2 = 16$. 3. Radius $r = \\sqrt{16} = 4$."
+  },
+  {
+    "id": 11,
+    "category": "integrals",
+    "content": "Calculate the value of the definite integral $\\int_{0}^{3} 2x dx$.",
+    "expected_result": "9",
+    "solution_steps": "1. The antiderivative for $2x$ is $x^2$. 2. Substitute the upper bound: $3^2 = 9$. 3. Substitute the lower bound: $0^2 = 0$. 4. Result: $9 - 0 = 9$."
+  },
+  {
+    "id": 12,
+    "category": "integrals",
+    "content": "Calculate the value of the definite integral $\\int_{1}^{2} (3x^2 + 2) dx$.",
+    "expected_result": "9",
+    "solution_steps": "1. Antiderivative: $x^3 + 2x$. 2. For $x=2$: $8 + 4 = 12$. 3. For $x=1$: $1 + 2 = 3$. 4. Result: $12 - 3 = 9$."
+  },
+  {
+    "id": 13,
+    "category": "integrals",
+    "content": "Calculate the value of the definite integral $\\int_{0}^{1} 4x^3 dx$.",
+    "expected_result": "1",
+    "solution_steps": "1. The antiderivative for $4x^3$ is $x^4$. 2. For $x=1$: $1^4 = 1$. 3. For $x=0$: $0^4 = 0$. 4. Result: $1 - 0 = 1$."
+  },
+  {
+    "id": 14,
+    "category": "integrals",
+    "content": "Calculate the value of the definite integral $\\int_{1}^{e} \\frac{1}{x} dx$ (where $e$ is Euler's number).",
+    "expected_result": "1",
+    "solution_steps": "1. The antiderivative for $1/x$ is $\\ln(x)$. 2. For $x=e$: $\\ln(e) = 1$. 3. For $x=1$: $\\ln(1) = 0$. 4. Result: $1 - 0 = 1$."
+  },
+  {
+    "id": 15,
+    "category": "integrals",
+    "content": "Calculate the value of the definite integral $\\int_{0}^{\\sqrt{\\pi}} 2x \\cos(x^2) dx$.",
+    "expected_result": "0",
+    "solution_steps": "1. Substitution $t = x^2$, then $dt = 2x dx$. Limits: $0 \\to 0$, $\\sqrt{\\pi} \\to \\pi$. 2. The integral changes to $\\int_{0}^{\\pi} \\cos(t) dt$. 3. Antiderivative is $\\sin(t)$. 4. $\\sin(\\pi) - \\sin(0) = 0 - 0 = 0$."
+  },
+  {
+    "id": 16,
+    "category": "trigonometry",
+    "content": "In a right triangle, the hypotenuse has a length of 10, and an acute angle is $30^\\circ$. Calculate the length of the leg opposite this angle.",
+    "expected_result": "5",
+    "solution_steps": "1. Use the definition of sine: $\\sin(30^\\circ) = a/10$. 2. $\\sin(30^\\circ) = 0.5$. 3. $a = 10 \\cdot 0.5 = 5$."
+  },
+  {
+    "id": 17,
+    "category": "trigonometry",
+    "content": "In a right triangle, the hypotenuse has a length of 12, and the base angle is $60^\\circ$. Calculate the length of the leg adjacent to this angle.",
+    "expected_result": "6",
+    "solution_steps": "1. Use the definition of cosine: $\\cos(60^\\circ) = b/12$. 2. $\\cos(60^\\circ) = 0.5$. 3. $b = 12 \\cdot 0.5 = 6$."
+  },
+  {
+    "id": 18,
+    "category": "trigonometry",
+    "content": "In a right triangle, the legs have lengths of 3 and 4. Calculate the tangent of the smaller acute angle.",
+    "expected_result": "3/4 or 0.75",
+    "solution_steps": "1. The smaller angle lies opposite the shorter side (3). 2. Tangent is the ratio of the opposite leg to the adjacent leg. 3. $\\tan(\\alpha) = 3/4 = 0.75$."
+  },
+  {
+    "id": 19,
+    "category": "trigonometry",
+    "content": "Knowing that $\\sin(\\alpha) = 0.6$ for an acute angle, calculate $\\cos(\\alpha)$.",
+    "expected_result": "4/5 or 0.8",
+    "solution_steps": "1. Trigonometric identity: $\\sin^2 + \\cos^2 = 1$. 2. $0.36 + \\cos^2 = 1$. 3. $\\cos^2 = 0.64 \\Rightarrow \\cos = 0.8$."
+  },
+  {
+    "id": 20,
+    "category": "trigonometry",
+    "content": "In a right triangle, the hypotenuse has a length of 10. Calculate the length of the leg opposite the $45^\\circ$ angle (provide a decimal approximation).",
+    "expected_result": "5\\sqrt{2} or 7.07",
+    "solution_steps": "1. $\\sin(45^\\circ) = a/10$. 2. $\\sqrt{2}/2 = a/10$. 3. $a = 5\\sqrt{2} \\approx 5 \\cdot 1.414 = 7.07$."
+  },
+  {
+    "id": 21,
+    "category": "systems of equations",
+    "content": "Solve the system of equations: $2x + y = 10$ and $x - y = 2$. Provide the value of x.",
+    "expected_result": "4",
+    "solution_steps": "1. Add the equations: $3x = 12$. 2. $x = 4$."
+  },
+  {
+    "id": 22,
+    "category": "systems of equations",
+    "content": "Solve the system of equations: $y = 2x - 3$ and $3x + 2y = 8$. Provide the value of y.",
+    "expected_result": "1",
+    "solution_steps": "1. Substitution: $3x + 2(2x-3) = 8 \\Rightarrow 7x = 14 \\Rightarrow x=2$. 2. $y = 2(2)-3 = 1$."
+  },
+  {
+    "id": 23,
+    "category": "systems of equations",
+    "content": "Solve the system: $x + 2y = 8$ and $x - y = 2$. Provide the sum $x + y$.",
+    "expected_result": "6",
+    "solution_steps": "1. Subtract the equations: $3y = 6 \\Rightarrow y=2$. 2. $x - 2 = 2 \\Rightarrow x=4$. 3. Sum: $4 + 2 = 6$."
+  },
+  {
+    "id": 24,
+    "category": "systems of equations",
+    "content": "Solve the system: $3x - 2y = 4$ and $x + 2y = 12$. Provide the product $x \\cdot y$.",
+    "expected_result": "16",
+    "solution_steps": "1. Add the equations: $4x = 16 \\Rightarrow x=4$. 2. $4 + 2y = 12 \\Rightarrow 2y=8 \\Rightarrow y=4$. 3. Product: $4 \\cdot 4 = 16$."
+  },
+  {
+    "id": 25,
+    "category": "systems of equations",
+    "content": "Solve the system: $2x + 3y = 7$ and $y = x - 1$. Provide the value of x.",
+    "expected_result": "2",
+    "solution_steps": "1. Substitution: $2x + 3(x-1) = 7$. 2. $5x - 3 = 7 \\Rightarrow 5x=10$. 3. $x=2$."
+  },
+  {
+    "id": 26,
+    "category": "probability",
+    "content": "We flip a coin twice. What is the probability of getting heads at least once?",
+    "expected_result": "3/4 or 0.75",
+    "solution_steps": "1. All options: {HH, HT, TH, TT} (4). 2. Favorable: {HH, HT, TH} (3). 3. $P = 3/4 = 0.75$."
+  },
+  {
+    "id": 27,
+    "category": "probability",
+    "content": "We roll a die once. What is the probability of rolling a number greater than 4?",
+    "expected_result": "1/3 or 0.33",
+    "solution_steps": "1. Options: {1,2,3,4,5,6}. 2. Favorable: {5,6} (2 options). 3. $P = 2/6 = 1/3 \\approx 0.33$."
+  },
+  {
+    "id": 28,
+    "category": "probability",
+    "content": "There are 3 red balls and 2 blue balls in an urn. We draw one. What is the probability that it will be red?",
+    "expected_result": "3/5 or 0.6",
+    "solution_steps": "1. Total balls: 5. 2. Red: 3. 3. $P = 3/5 = 0.6$."
+  },
+  {
+    "id": 29,
+    "category": "probability",
+    "content": "We draw one card from a deck of 52 cards. What is the approximate probability that it will be an ace?",
+    "expected_result": "1/13 or 0.08",
+    "solution_steps": "1. Number of aces: 4. 2. $P = 4/52 = 1/13 \\approx 0.0769$. Rounded to 0.08."
+  },
+  {
+    "id": 30,
+    "category": "probability",
+    "content": "We flip a coin three times. What is the probability of getting three heads?",
+    "expected_result": "1/8 or 0.125",
+    "solution_steps": "1. Event space $2^3 = 8$. 2. Only one result is favorable (H, H, H). 3. $P = 1/8 = 0.125$."
+  },
+  {
+    "id": 31,
+    "category": "quadratic equations",
+    "content": "Provide the larger root of the equation: $x^2 - 5x + 6 = 0$.",
+    "expected_result": "3",
+    "solution_steps": "1. $\\Delta = 25 - 24 = 1$. 2. $x_1 = (5-1)/2 = 2$, $x_2 = (5+1)/2 = 3$. Larger is 3."
+  },
+  {
+    "id": 32,
+    "category": "quadratic equations",
+    "content": "Provide the smaller root of the equation: $x^2 + 4x - 5 = 0$.",
+    "expected_result": "-5",
+    "solution_steps": "1. $\\Delta = 16 + 20 = 36$. 2. $x_1 = (-4-6)/2 = -5$, $x_2 = (-4+6)/2 = 1$. Smaller is -5."
+  },
+  {
+    "id": 33,
+    "category": "quadratic equations",
+    "content": "Find the real roots of the equation $x^2 + 2x + 5 = 0$.",
+    "expected_result": "no real roots or no real solutions or no result",
+    "solution_steps": "1. Identify $a=1, b=2, c=5$. 2. Calculate $\\Delta = 2^2 - 4 \\cdot 1 \\cdot 5 = -16$. 3. $\\Delta < 0$ means no real solutions."
+  },
+  {
+    "id": 34,
+    "category": "quadratic equations",
+    "content": "Solve the equation $3x^2 - x + 2 = 0$ in the set of real numbers.",
+    "expected_result": "no real roots or no real solutions or no result"  ,
+    "solution_steps": "1. Identify $a=3, b=-1, c=2$. 2. Calculate $\\Delta = (-1)^2 - 4 \\cdot 3 \\cdot 2 = -23$. 3. $\\Delta < 0$, so no real roots exist."
+  },
+  {
+    "id": 35,
+    "category": "quadratic equations",
+    "content": "Solve the equation $x^2 + 6x + 9 = 0$.",
+    "expected_result": "-3",
+    "solution_steps": "1. Perfect square formula $(x+3)^2 = 0$. 2. Double root $x = -3$."
+  },
+  {
+    "id": 36,
+    "category": "percentages",
+    "content": "Shoes cost 200 PLN. The price was increased by 10%, and then the new price was decreased by 10%. What is the final price?",
+    "expected_result": "198",
+    "solution_steps": "1. After increase: $200 \\cdot 1.1 = 220$. 2. After decrease: $220 \\cdot 0.9 = 198$."
+  },
+  {
+    "id": 37,
+    "category": "percentages",
+    "content": "A TV cost 1500 PLN. The price was reduced by 20%, and then by another 10% from the new price. What is the final price?",
+    "expected_result": "1080",
+    "solution_steps": "1. After 1st reduction: $1500 \\cdot 0.8 = 1200$. 2. After 2nd reduction: $1200 \\cdot 0.9 = 1080$."
+  },
+  {
+    "id": 38,
+    "category": "percentages",
+    "content": "An employee earns 4000 PLN. They received a 15% raise. How much is the new salary?",
+    "expected_result": "4600",
+    "solution_steps": "1. Raise amount: $4000 \\cdot 0.15 = 600$. 2. New salary: $4000 + 600 = 4600$."
+  },
+  {
+    "id": 39,
+    "category": "percentages",
+    "content": "The net price is 100 PLN. The VAT tax is 23%. What is the gross price?",
+    "expected_result": "123",
+    "solution_steps": "1. $100 + 0.23 \\cdot 100 = 123$."
+  },
+  {
+    "id": 40,
+    "category": "percentages",
+    "content": "You deposit 1000 PLN into a 5% savings account. How much money will you have after a year (ignoring taxes)?",
+    "expected_result": "1050",
+    "solution_steps": "1. Interest: $1000 \\cdot 0.05 = 50$. 2. Total: $1050$."
+  },
+  {
+    "id": 41,
+    "category": "logarithms",
+    "content": "Calculate: $\\log_2(32) - \\log_3(9)$.",
+    "expected_result": "3",
+    "solution_steps": "1. $2^5=32 \\Rightarrow 5$. 2. $3^2=9 \\Rightarrow 2$. 3. $5 - 2 = 3$."
+  },
+  {
+    "id": 42,
+    "category": "logarithms",
+    "content": "Calculate: $\\log_5(25) + \\log_2(8)$.",
+    "expected_result": "5",
+    "solution_steps": "1. $5^2=25 \\Rightarrow 2$. 2. $2^3=8 \\Rightarrow 3$. 3. $2 + 3 = 5$."
+  },
+  {
+    "id": 43,
+    "category": "logarithms",
+    "content": "Calculate: $\\log_4(64) + \\log_2(0.125)$.",
+    "expected_result": "0",
+    "solution_steps": "1. $4^3=64 \\Rightarrow 3$. 2. $2^{-3}=1/8=0.125 \\Rightarrow -3$. 3. $3 + (-3) = 0$."
+  },
+  {
+    "id": 44,
+    "category": "logarithms",
+    "content": "Calculate: $\\log_3(27) + \\log_3(1)$.",
+    "expected_result": "3",
+    "solution_steps": "1. $3^3=27 \\Rightarrow 3$. 2. $3^0=1 \\Rightarrow 0$. 3. $3+0=3$."
+  },
+  {
+    "id": 45,
+    "category": "logarithms",
+    "content": "Calculate: $\\log_{10}(1000) - \\log_{10}(0.1)$.",
+    "expected_result": "4",
+    "solution_steps": "1. $\\log(1000)=3$. 2. $\\log(0.1)=-1$. 3. $3 - (-1) = 4$."
+  },
+  {
+    "id": 46,
+    "category": "word problems",
+    "content": "A train travels at a speed of 72 km/h. What distance (in km) will it cover in 20 minutes?",
+    "expected_result": "24",
+    "solution_steps": "1. 20 min = 1/3 h. 2. $s = v \\cdot t = 72 \\cdot 1/3 = 24$ km."
+  },
+  {
+    "id": 47,
+    "category": "word problems",
+    "content": "A car traveled 300 km in 4.5 hours. What was the average speed (in km/h - round the result to 2 decimal places)?",
+    "expected_result": "200/3 or 66.67",
+    "solution_steps": "1. $v = s/t$. 2. $300 / 4.5 = 66.666... \\approx 66.67$."
+  },
+  {
+    "id": 48,
+    "category": "word problems",
+    "content": "A cyclist travels at 15 km/h. How many minutes will it take them to cover 4.5 km?",
+    "expected_result": "18",
+    "solution_steps": "1. Time in hours $t = 4.5 / 15 = 0.3$ h. 2. Minutes: $0.3 \\cdot 60 = 18$."
+  },
+  {
+    "id": 49,
+    "category": "word problems",
+    "content": "Kate is twice as old as Tom. In 5 years, the sum of their ages will be 40. How old is Tom now?",
+    "expected_result": "10",
+    "solution_steps": "1. $x$ - Tom, $2x$ - Kate. 2. $(x+5) + (2x+5) = 40$. 3. $3x + 10 = 40 \\Rightarrow 3x=30 \\Rightarrow x=10$."
+  },
+  {
+    "id": 50,
+    "category": "word problems",
+    "content": "Pump A fills a pool in 6h, pump B in 3h. How many hours will it take to fill when they work together?",
+    "expected_result": "2",
+    "solution_steps": "1. Efficiency A: 1/6, B: 1/3. 2. Together: $1/6 + 2/6 = 3/6 = 1/2$. 3. Time = reciprocal of efficiency = 2h."
+  },
+  {
+    "id": 51,
+    "category": "arithmetic sequences",
+    "content": "In an arithmetic sequence $a_1 = 3$, $r = 4$. Calculate the tenth term $a_{10}$.",
+    "expected_result": "39",
+    "solution_steps": "1. $a_{10} = a_1 + 9r$. 2. $3 + 9 \\cdot 4 = 3 + 36 = 39$."
+  },
+  {
+    "id": 52,
+    "category": "arithmetic sequences",
+    "content": "In an arithmetic sequence $a_5 = 10$, $a_7 = 16$. Calculate the difference $r$.",
+    "expected_result": "3",
+    "solution_steps": "1. $a_7 = a_5 + 2r$. 2. $16 = 10 + 2r$. 3. $2r = 6 \\Rightarrow r=3$."
+  },
+  {
+    "id": 53,
+    "category": "arithmetic sequences",
+    "content": "Calculate the sum of the first five terms of an arithmetic sequence where $a_1 = 2$, $r = 3$.",
+    "expected_result": "40",
+    "solution_steps": "1. $a_5 = 2 + 4\\cdot3 = 14$. 2. Sum $S_5 = \\frac{2+14}{2} \\cdot 5 = 8 \\cdot 5 = 40$."
+  },
+  {
+    "id": 54,
+    "category": "arithmetic sequences",
+    "content": "An arithmetic sequence is given: $a_1 = 5, a_2 = 8$. Calculate $a_{20}$.",
+    "expected_result": "62",
+    "solution_steps": "1. $r = 8 - 5 = 3$. 2. $a_{20} = 5 + 19 \\cdot 3 = 5 + 57 = 62$."
+  },
+  {
+    "id": 55,
+    "category": "arithmetic sequences",
+    "content": "How many initial terms of the sequence of odd natural numbers (1, 3, 5...) must be added to get 100?",
+    "expected_result": "10",
+    "solution_steps": "1. The sum of n odd numbers is $n^2$. 2. $n^2 = 100 \\Rightarrow n=10$."
+  },
+  {
+    "id": 56,
+    "category": "limits",
+    "content": "Calculate the limit: $\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}$.",
+    "expected_result": "4",
+    "solution_steps": "1. Factorization: $(x-2)(x+2)/(x-2)$. 2. $\\lim (x+2) = 2+2 = 4$."
+  },
+  {
+    "id": 57,
+    "category": "limits",
+    "content": "Calculate the limit at infinity: $\\lim_{x \\to \\infty} \\frac{3x^2 + 5x}{2x^2 - 1}$.",
+    "expected_result": "3/2 or 1.5",
+    "solution_steps": "1. Divide by $x^2$. 2. Remains $3/2 = 1.5$."
+  },
+  {
+    "id": 58,
+    "category": "limits",
+    "content": "Calculate the value of the limit (horizontal asymptote) for $f(x) = \\frac{4x^3 - 2}{x^3 + 1}$ at infinity.",
+    "expected_result": "4",
+    "solution_steps": "1. Highest powers are $x^3$. 2. Coefficients $4/1 = 4$."
+  },
+  {
+    "id": 59,
+    "category": "limits",
+    "content": "Calculate the limit: $\\lim_{x \\to 3} \\frac{x^2 - 9}{x^2 - 2x - 3}$.",
+    "expected_result": "3/2 or 1.5",
+    "solution_steps": "1. Numerator $(x-3)(x+3)$. Denominator $(x-3)(x+1)$. 2. $\\lim \\frac{x+3}{x+1} = 6/4 = 1.5$."
+  },
+  {
+    "id": 60,
+    "category": "limits",
+    "content": "Calculate the limit: $\\lim_{x \\to 1} \\frac{x^2 - 1}{x - 1}$.",
+    "expected_result": "2",
+    "solution_steps": "1. Factorize numerator: $(x-1)(x+1)$. 2. Cancel $(x-1)$. 3. $\\lim_{x \\to 1} (x+1) = 2$."
+  },
+  {
+    "id": 61,
+    "category": "optimization",
+    "content": "Find the positive number x for which the function $f(x) = x(10-x)$ takes its maximum value.",
+    "expected_result": "5",
+    "solution_steps": "1. $f(x) = 10x - x^2$. 2. Derivative $f'(x) = 10 - 2x$. 3. $10 - 2x = 0 \\Rightarrow x=5$."
+  },
+  {
+    "id": 62,
+    "category": "optimization",
+    "content": "Find the sum of two numbers (x and y) whose sum is 10 and whose product is the largest possible.",
+    "expected_result": "10",
+    "solution_steps": "1. From the problem statement, the sum of the numbers is 10. This is the answer."
+  },
+  {
+    "id": 63,
+    "category": "optimization",
+    "content": "For what argument x does the quadratic function $f(x) = x^2 - 4x + 5$ reach its minimum value?",
+    "expected_result": "2",
+    "solution_steps": "1. Vertex of the parabola $p = -b/2a$. 2. $p = 4/2 = 2$."
+  },
+  {
+    "id": 64,
+    "category": "optimization",
+    "content": "A rectangle has a perimeter of 20. What is the maximum area of this rectangle?",
+    "expected_result": "25",
+    "solution_steps": "1. $2x + 2y = 20 \\Rightarrow y = 10-x$. 2. Area $P(x) = x(10-x) = 10x - x^2$. 3. Max for vertex $x=5$. 4. Area $5 \\cdot 5 = 25$."
+  },
+  {
+    "id": 65,
+    "category": "optimization",
+    "content": "Find the maximum value of the function $f(x) = -x^2 + 2x$.",
+    "expected_result": "1",
+    "solution_steps": "1. Vertex $x = -2/(-2) = 1$. 2. Value $f(1) = -1 + 2 = 1$."
+  },
+  {
+    "id": 66,
+    "category": "polynomials",
+    "content": "Find the positive root of the polynomial $W(x) = x^3 - 4x$.",
+    "expected_result": "2",
+    "solution_steps": "1. $x(x^2 - 4) = 0$. 2. $x(x-2)(x+2) = 0$. 3. Roots: 0, 2, -2. Positive is 2."
+  },
+  {
+    "id": 67,
+    "category": "polynomials",
+    "content": "Calculate the value of the polynomial $W(x) = 2x^3 - x + 1$ for $x = 2$.",
+    "expected_result": "15",
+    "solution_steps": "1. $2(2)^3 - 2 + 1$. 2. $2 \\cdot 8 - 1 = 16 - 1 = 15$."
+  },
+  {
+    "id": 68,
+    "category": "polynomials",
+    "content": "The polynomial $W(x) = (x-1)(x-2)(x-3)$. Calculate the sum of its roots.",
+    "expected_result": "6",
+    "solution_steps": "1. Roots are 1, 2, 3. 2. Sum: $1 + 2 + 3 = 6$."
+  },
+  {
+    "id": 69,
+    "category": "polynomials",
+    "content": "Calculate the remainder of the division of the polynomial $W(x) = x^3 + 1$ by the binomial $(x - 1)$.",
+    "expected_result": "2",
+    "solution_steps": "1. By the Remainder Theorem: $R = W(1)$. 2. $W(1) = 1^3 + 1 = 2$."
+  },
+  {
+    "id": 70,
+    "category": "polynomials",
+    "content": "Calculate the constant term of the polynomial $W(x) = x^2 - 5x + 6$.",
+    "expected_result": "6",
+    "solution_steps": "1. The constant term is the value for $x=0$. 2. $W(0) = 6$."
+  },
+  {
+    "id": 71,
+    "category": "differentiation",
+    "content": "A circle $x^2 + y^2 = 25$ is given. Calculate the value of the derivative $\\frac{dy}{dx}$ at the point $(3, 4)$ (using implicit differentiation).",
+    "expected_result": "-3/4 or -0.75",
+    "solution_steps": "1. Derivative with respect to x: $2x + 2y y' = 0$. 2. $y' = -x/y$. 3. Substitute point: $-3/4 = -0.75$."
+  },
+  {
+    "id": 72,
+    "category": "differentiation",
+    "content": "A curve is given by the equation $xy = 4$. Calculate the derivative $\\frac{dy}{dx}$ at the point $(2, 2)$.",
+    "expected_result": "-1",
+    "solution_steps": "1. $y = 4/x = 4x^{-1}$. 2. $y' = -4/x^2$. 3. $y'(2) = -4/4 = -1$."
+  },
+  {
+    "id": 73,
+    "category": "differentiation",
+    "content": "Calculate the derivative $\\frac{dy}{dx}$ of the implicit function $x + y = 10$ at any point.",
+    "expected_result": "-1",
+    "solution_steps": "1. Differentiate both sides: $1 + y' = 0$. 2. $y' = -1$."
+  },
+  {
+    "id": 74,
+    "category": "differentiation",
+    "content": "For the curve $y^2 = 4x$, calculate the derivative $\\frac{dy}{dx}$ at the point $(1, 2)$.",
+    "expected_result": "1",
+    "solution_steps": "1. Differentiate: $2y y' = 4$. 2. $y' = 4/(2y) = 2/y$. 3. For $y=2$: $2/2 = 1$."
+  },
+  {
+    "id": 75,
+    "category": "differentiation",
+    "content": "Calculate the second-order derivative $f''(x)$ for the function $f(x)=x^3$ at the point $x=2$.",
+    "expected_result": "12",
+    "solution_steps": "1. $f'(x) = 3x^2$. 2. $f''(x) = 6x$. 3. For $x=2$: $6 \\cdot 2 = 12$."
+  }
+]

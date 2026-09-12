@@ -1,0 +1,10 @@
+jupyter
+nbconvert
+pytest
+pandas
+numpy
+sympy
+matplotlib
+seaborn
+markdown
+latex2mathml

@@ -1,0 +1,5 @@
+model,variant,Accuracy %,Lift %,Avg Latency (s),efficiency_score,Compliance %
+Llama-70B (Groq),cot,97.3,20.0,0.83,1.1688191271409125,100.0
+Llama-70B (Groq),direct,77.3,,0.25,3.143018556205272,100.0
+Llama-8B (Lokal),cot,72.0,33.3,35.69,0.02017450006986932,100.0
+Llama-8B (Lokal),direct,38.7,,2.83,0.13647724800389233,98.7
