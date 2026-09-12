@@ -14,8 +14,7 @@ The benchmark contains 75 questions across 15 categories, with five questions pe
 | Llama 3 8B via Ollama | Structured reasoning | 72.0% | +33.3 p.p. | 35.69 s | 100.0% |
 
 
-The raw CSV preserves the recorded `score` column and an independently audited `audited_score` column. Headline results and figures use `audited_score`; four mathematically equivalent numeric responses are counted as correct under the audited evaluator.
-
+The raw CSV preserves the recorded `score` column and an independently audited `audited_score` column.
 ![Audited accuracy by configuration](assets/accuracy_by_configuration.png)
 
 ![Audited accuracy by mathematical category](assets/accuracy_by_category.png)
